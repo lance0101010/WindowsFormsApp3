@@ -107,6 +107,7 @@ namespace WindowsFormsApp3
             this.textInfo.Name = "textInfo";
             this.textInfo.Size = new System.Drawing.Size(363, 25);
             this.textInfo.TabIndex = 6;
+            this.textInfo.TextChanged += new System.EventHandler(this.textInfo_TextChanged);
             // 
             // button
             // 
