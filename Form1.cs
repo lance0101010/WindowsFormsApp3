@@ -71,7 +71,7 @@ namespace WindowsFormsApp3
 
             if (double.TryParse(strInput, out douOutput) == true)
             {
-                caculateAnswer(0, douOutput*100);
+                caculateAnswer(1, douOutput*100);
             }
             else
             {
@@ -87,7 +87,7 @@ namespace WindowsFormsApp3
 
             if (double.TryParse(strInput, out douOutput) == true)
             {
-                caculateAnswer(0, douOutput*100000);
+                caculateAnswer(2, douOutput*100000);
             }
 
             else
@@ -103,7 +103,7 @@ namespace WindowsFormsApp3
 
             if (double.TryParse(strInput, out douOutput) == true)
             {
-                caculateAnswer(0, douOutput*2.54);
+                caculateAnswer(3, douOutput*2.54);
             }
             else
             {
@@ -118,7 +118,7 @@ namespace WindowsFormsApp3
 
             if (double.TryParse(strInput, out douOutput) == true)
             {
-                caculateAnswer(0, douOutput*30.98);
+                caculateAnswer(4, douOutput*30.98);
 
             }
             else
@@ -136,7 +136,7 @@ namespace WindowsFormsApp3
 
             if (double.TryParse(strInput, out douOutput) == true)
             {
-                caculateAnswer(0, douOutput * 91.44);
+                caculateAnswer(5, douOutput * 91.44);
             }
             else
             {
